@@ -5,10 +5,10 @@
 
 ## A. ANGGOTA KELOMPOK
 <ul>
-	Anderson Pieter - 2440029574
-	Maverick Sean Therry - 2440079471
-	Muhamad Ndaru Hestiafin - 2440064766
-	Yosua Gunawan - 2440030292
+	<li>Anderson Pieter - 2440029574</li>
+	<li>Maverick Sean Therry - 2440079471</li>
+	<li>Muhamad Ndaru Hestiafin - 2440064766</li>
+	<li>Yosua Gunawan - 2440030292</li>
 </ul>
 
 <br>
