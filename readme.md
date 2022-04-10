@@ -1,15 +1,15 @@
 <h1 align="center">Japanase Role Playing Game (JRPG)</h1>
-<h3 align="center">OOP LG01 Assignment</h3>
+<h3 align="center">OOP LG01 - Assignment</h3>
 
 <br>
 
 ## A. ANGGOTA KELOMPOK
-<ul>
+<ol>
 	<li>Anderson Pieter - 2440029574</li>
 	<li>Maverick Sean Therry - 2440079471</li>
 	<li>Muhamad Ndaru Hestiafin - 2440064766</li>
 	<li>Yosua Gunawan - 2440030292</li>
-</ul>
+</ol>
 
 <br>
 
