@@ -45,7 +45,6 @@ public class Knight extends Character {
 					" Knight has deflected a total of - " + (this.getDefense() + this.getShieldDefense()) + " Damage");
 			this.setHealth(this.getHealth() - (damage - (this.getDefense() + this.getShieldDefense())));
 		}
-
 	}
 
 	@Override
@@ -66,7 +65,6 @@ public class Knight extends Character {
 		int totalAttack = ((rand.nextInt(10) + 1) * this.getDamage()) / 10 + this.getBleedDamage();
 
 		return totalAttack;
-
 	}
 
 	@Override
@@ -74,7 +72,6 @@ public class Knight extends Character {
 
 		System.out.println(" Knight has taken - " + (damage - this.getDefense()) + " Damage");
 		this.setHealth(this.getHealth() - (damage - this.getDefense()));
-
 	}
 
 	@Override
@@ -86,7 +83,6 @@ public class Knight extends Character {
 		this.setDefense((rand.nextInt(4) * this.getLevel()) + 5);
 		this.setBleedDamage((rand.nextInt(2) * this.getLevel()) + 5);
 		this.setShieldDefense((rand.nextInt(5) * this.getLevel()) + 20);
-
 	}
 
 	@Override
@@ -100,6 +96,5 @@ public class Knight extends Character {
 		this.setHealth(100);
 		this.setDamage((rand.nextInt(5) * this.getLevel()) + this.getDamage());
 		this.setDefense((rand.nextInt(4) * this.getLevel()) + this.getDefense());
-
 	}
 }

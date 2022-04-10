@@ -42,7 +42,6 @@ public class Wizard extends Character {
 		if (this.getLevel() != 1)
 			this.setLevel(this.getLevel() - 1);
 		this.setHealth(100);
-
 	}
 
 	@Override
@@ -56,10 +55,8 @@ public class Wizard extends Character {
 
 	@Override
 	public void takeDamage(int damage) {
-
 		System.out.println(" Wizard has taken - " + (damage - this.getDefense()) + " Damage");
 		this.setHealth(this.getHealth() - (damage - this.getDefense()));
-
 	}
 
 	@Override
@@ -70,7 +67,6 @@ public class Wizard extends Character {
 		this.setDamage((rand.nextInt(3) * this.getLevel()) + 25);
 		this.setDefense((rand.nextInt(3) * this.getLevel()) + 3);
 		this.setMana((rand.nextInt(5) * this.getLevel()) + 100);
-
 	}
 
 	@Override
@@ -85,6 +81,5 @@ public class Wizard extends Character {
 		this.setDamage((rand.nextInt(3) * this.getLevel()) + this.getDamage());
 		this.setDefense((rand.nextInt(3) * this.getLevel()) + this.getDefense());
 		this.setMana((rand.nextInt(5) * this.getLevel()) + 100);
-
 	}
 }
