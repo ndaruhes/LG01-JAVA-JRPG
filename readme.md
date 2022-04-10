@@ -29,5 +29,24 @@ Untuk 4 method lain merupakan method biasa yang langsung diinheritkan kepada Kni
 
 <br>
 
-## D. Class Diagram
+## D. Pembagian Tugas
+<b>Pembahasan Kasus</b>
+<ul>
+	<li>Membahas Penentuan Kasus, Class Analysis, dan Class Diagram (Rame - Rame)</li>
+	<li>Class Diagram – draw.io (Anderson)</li>
+</ul>
+
+<br>
+
+<b>Coding (diskusi & saling cek jika ada salah)</b>
+<ul>
+	<li>Class Main (Maverick)</li>
+	<li>Class Character (Maverick)</li>
+	<li>Class Knight (Anderson, Ndaru, & Yosua)</li>
+	<li>Class Wizard (Anderson, Ndaru, & Yosua)</li>
+	<li>Setup Repository & README.md (Ndaru)</li>
+</ul>
+<br>
+
+## E. Class Diagram
 <img src="https://snipboard.io/8TDP9x.jpg" width="100%"> <br>
